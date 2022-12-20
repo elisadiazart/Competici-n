@@ -1,1 +1,53 @@
-/* ESTILOS DEL FOOTER */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+
+    &__logo{
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+
+    &__link{
+        text-transform: uppercase;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 0.75rem;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
+
+        &--invite{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 6.5rem;
+            padding-right: 6.5rem;
+            padding-bottom: 1.5rem;
+        }
+    }
+
+    &__menu{
+        padding-bottom: 5rem;
+    }
+
+    &__copyright{
+        font-family: 'DM Sans', sans-serif;
+        color: rgb(255, 255, 255, .5);
+        font-weight: 400;
+        font-size: 0.9375rem;
+    }
+
+}
+
+.fa-brands{
+    font-size: 1.4rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+}
+
+.social-media{
+    padding-bottom: 3rem;
+}
+

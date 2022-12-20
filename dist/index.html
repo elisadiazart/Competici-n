@@ -4,12 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
@@ -19,12 +16,153 @@
       <nav>
         <ul class="menu">
           <li class="menu__item">
-            <a href="#" class="menu__link">Item de ejemplo</a>
+            <a href="#" class="menu__link"><img src="assets/shared/desktop/logo.svg" alt="logo photosnap"></a></a>
           </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link" id="menu"><img class="menu-icon" src="assets/shared/mobile/menu.svg" alt=""></a>
+          </li>
+          <div class="menu__options" id="options">
+            <li class="menu__item">
+              <a href="#" class="menu__link">Stories</a></li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Features</a></li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Pricing</a></li>
+            <div class="menu__decoration"></div>
+            <li class="menu__item menu__item--black">
+              <a href="#" class="menu__link">Get an invite</a></li>
+          </div>
         </ul>
       </nav>
     </header>
-    <main class="main"></main>
-    <footer class="footer"></footer>
+    <main class="main">
+      <article class="article article--create">
+        <picture >
+          <source
+          media="(min-width: 1024px"
+          srcset="assets/home/desktop/create-and-share.jpg">
+          <source
+          media="(min-width: 768px"
+          srcset="assets/home/tablet/create-and-share.jpg">
+          <source
+          media="(min-width: 360px"
+          srcset="assets/home/mobile/create-and-share.jpg">
+          <img class="article__image" src="assets/home/desktop/create-and-share.jpg" alt="create and share image">
+        </picture>
+        <div class="article__text-container article__text-container--create">
+        <h2 class="article__title">Create and share your photo Stories.</h2>
+        <p class="article__text article__text--create">  Photosnap is a platform for photographers and visual storytellers. We make it 
+          easy to share photos, tell stories and connect with others.</p>
+        <a class="article__link" href="">Get an invite <img class="arrow" src="assets/shared/desktop/arrow-white.svg" alt=""></a>
+      </div>
+      </article>
+      <article class="article ">
+        <picture >
+          <source
+          media="(min-width: 1024px"
+          srcset="assets/home/desktop/beautiful-stories.jpg">
+          <source
+          media="(min-width: 768px"
+          srcset="assets/home/tablet/beautiful-stories.jpg">
+          <source
+          media="(min-width: 360px"
+          srcset="assets/home/mobile/beautiful-stories.jpg">
+          <img class="article__image" src="assets/home/desktop/beautiful-stories.jpg" alt="create and share image">
+        </picture>
+        <div class="article__text-container">
+        <h2 class="article__title">Beautiful stories every time</h2>
+        <p class="article__text">  We provide design templates to ensure your stories look terrific. Easily add 
+          photos, text, embed maps and media from other networks. Then share your story 
+          with everyone.</p>
+        <a class="article__link" href="">View the stories <img class="arrow" src="assets/shared/desktop/arrow.svg" alt=""></a>
+      </div>
+      </article>
+      <article class="article ">
+        <picture >
+          <source
+          media="(min-width: 1024px"
+          srcset="assets/home/desktop/designed-for-everyone.jpg">
+          <source
+          media="(min-width: 768px"
+          srcset="assets/home/tablet/designed-for-everyone.jpg">
+          <source
+          media="(min-width: 360px"
+          srcset="assets/home/mobile/designed-for-everyone.jpg">
+          <img class="article__image" src="assets/home/desktop/designed-for-everyone.jpg" alt="create and share image">
+        </picture>
+        <div class="article__text-container">
+        <h2 class="article__title">Designed for everyone</h2>
+        <p class="article__text">  Photosnap can help you create stories that resonate with your audience.  Our 
+          tool is designed for photographers of all levels, brands, businesses you name it.</p>
+        <a class="article__link" href="">View the stories <img class="arrow" src="assets/shared/desktop/arrow.svg" alt=""></a>
+      </div>
+      </article>
+      <article class="article article--stories">
+        <div class="story">
+          <div class="story__text-container">
+          <h3 class="story__title">The Mountains</h3>
+          <p class="story__author">by John Appleseed</p>
+        <a class="story__link" href="#">Read story <img class="story__arrow" src="assets/shared/desktop/arrow-white.svg" alt=""></a>
+      </div></div>
+      <div class="story story--sunset">
+        <div class="story__text-container">
+        <h3 class="story__title">Sunset Cityscapes</h3>
+        <p class="story__author">by Benjamin Cruz</p>
+      <a class="story__link" href="#">Read story <img class="story__arrow" src="assets/shared/desktop/arrow-white.svg" alt=""></a>
+    </div></div>
+    <div class="story story--voyage">
+      <div class="story__text-container">
+      <h3 class="story__title">18 Days Voyage</h3>
+      <p class="story__author">by Alexei Borodin</p>
+    <a class="story__link" href="#">Read story <img class="story__arrow" src="assets/shared/desktop/arrow-white.svg" alt=""></a>
+  </div></div>
+  <div class="story story--archi">
+    <div class="story__text-container">
+    <h3 class="story__title">Architecturals</h3>
+    <p class="story__author">by Samantha Brooke</p>
+  <a class="story__link" href="#">Read story <img class="story__arrow" src="assets/shared/desktop/arrow-white.svg" alt=""></a>
+</div></div>
+      </article>
+      <article class="article article--features">
+        <div class="feature">
+          <img class="feature__icon" src="assets/features/desktop/responsive.svg" alt="">
+          <h3 class="feature__title">100% Responsive</h3>
+          <p class="feature__text">No matter which the device you’re on, our site is fully responsive and stories 
+            look beautiful on any screen.</p>
+        </div>
+        <div class="feature">
+          <img class="feature__icon" src="assets/features/desktop/no-limit.svg" alt="">
+          <h3 class="feature__title">No Photo Upload Limit</h3>
+          <p class="feature__text">Our tool has no limits on uploads or bandwidth. Freely upload in bulk and 
+            share all of your stories in one go.</p>
+        </div>
+        <div class="feature">
+          <img class="feature__icon" src="assets/features/desktop/embed.svg" alt="">
+          <h3 class="feature__title">Available to Embed</h3>
+          <p class="feature__text">Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, 
+            Google Maps, and more. </p>
+        </div>
+      </article>
+    </main>
+    <footer class="footer">
+      <a href="#" ><img class="footer__logo" src="assets/shared/desktop/logo-white.svg" alt="logo photosnap"></a></a>
+      <div class="social-media">
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <ul class="footer__menu">
+        <li class="footer__link"><a  href="#">Home</a></li>
+        <li class="footer__link"><a  href="#">Stories</a></li>
+        <li class="footer__link"><a  href="#">Features</a></li>
+        <li class="footer__link" ><a href="#">Pricing</a></li>
+      </ul>
+      <a class="footer__link footer__link--invite" href="#">Get an invite<img class="story__arrow" src="assets/shared/desktop/arrow-white.svg" alt=""></a>
+      <p class="footer__copyright">Copyright 2019. All Rights Reserved</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/1b394824e9.js" crossorigin="anonymous"></script>
   </body>
 </html>
